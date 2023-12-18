@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	
+	<title>Admin Login</title>
+	<head>
+			<style>
+		div	div ul {
+			  list-style-type: none;
+			  margin: 0;
+			  padding: 0;
+			  overflow: hidden;
+			  background-color:#C9C7C7;
+			}
+
+			li {
+			  float: right;
+			}
+
+			li a {
+			  display: block;
+			  color: #212F3D;
+			  text-align: center;
+			  padding: 16px 35px 17px;
+			  text-decoration: none;
+			  font-family:Berlin Sans FB;
+			}
+
+			li a:hover {
+			  background-color:#D5D3D3;
+			}
+			.focus {
+				  width:99%;
+				  padding: 15px 20px;
+				  box-sizing: border-box;
+				  border: 1px solid #8E8E8E;
+				  box-shadow :0px 0px 3px;
+			}
+
+			.focus:focus {
+			  background-color:#868686 ; 
+			  color: white;
+			  outline: none;
+			}
+			</style>
+			</head>
+	
+	<body style="background-color:#DBD9D9">
+	
+		<div style="margin-top:0;height:1.4cm;width:100%;background-color:#C9C7C7;">
+			<div style="float:left;height:1.4cm;width:10cm;" >
+				<h2 style="align:center;color:#0D0235;font-family:Algerian;">COLLEGE FEEDBACK SYSTEM</h2>
+			</div>
+			
+			<div style="font-size:0.5cm;float:right;height:1.2cm;width:20cm;">
+				<ul>
+					  <li><a href="about.html">About</a></li>
+					  <li><a href="fresher_regis.html">Fresher</a></li>
+					  <li><a href="stu_login.jsp">Student</a></li>
+					  <li><a class="active" href="admin_login.html">Admin</a></li>
+					  <li><a  href="home.html">Home</a></li>
+				</ul>
+			</div>
+		</div>		
+		
+	<div style="height:10cm;width:30cm;margin-top:7%;margin-left:5%;margin-right:10%;">
+		<div style="box-shadow:0 4px 5px;height:10cm;width:14cm;background:#E5B2B0;float:left;">
+				<img src="images\admin1.jpg" height="100%" width="100%">
+			</div>
+			<div style="height:10cm;width:15.8cm;float:right;border-style:solid;">
+			<h1 align="center" style="font-size:1cm;color:#410306;font-family:Algerian;">Admin LOGIN</h1>
+				<form action="adminfun.jsp" method="post">
+				
+					<table align="center" height=40 width=500 style="font-size:100%;text-align:center;">
+					<tr>
+						<td style ="font-size:0.7cm;color:#3F056A;font-family:Garamond;"><b>Username</b></td>
+					</tr>
+					<tr >
+						<td><input class="focus" type="text"  name="uname" placeholder="Enter your userid"style ="height:1cm;width:10cm;" required></td>
+					</tr>
+					<tr>
+						<td height=20 style="font-size:0.7cm;color:#3F056A;font-family:Garamond;"><b>Password</b></td>
+					</tr>
+					<tr>
+						<td><input class="focus" type="password" name="pass" placeholder="Enter your Password"style="height:1cm;width:10cm;" required></td>
+
+					</tr>
+					<tr>
+					<td><input type="submit" value="Submit" style="border-radius:4pt;cursor:pointer;display:inline-block;position:relative;transition:0.5s;width:3cm;height:1cm;color:white;background-color:#154360;"></td>
+					
+					
+					</tr>
+					
+					</table>
+				</form>
+				
+		</div>
+		</div>
+		
+</body>
+</html>
